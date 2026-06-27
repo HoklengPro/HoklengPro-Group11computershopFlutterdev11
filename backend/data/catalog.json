@@ -1,0 +1,3894 @@
+{
+	"buildOfTheMonth" : 
+	{
+		"benchmarks" : 
+		{
+			"gaming" : 97,
+			"productivity" : 94
+		},
+		"category" : "Desktops",
+		"configOptions" : 
+		{
+			"ram" : 
+			[
+				"32GB",
+				"64GB"
+			],
+			"storage" : 
+			[
+				"1TB",
+				"2TB"
+			]
+		},
+		"id" : "botm",
+		"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=800",
+		"isDeal" : false,
+		"isNew" : true,
+		"name" : "Neon Phantom (Build of the Month)",
+		"price" : 3299,
+		"specs" : 
+		{
+			"cpu" : "AMD Ryzen 7 7800X3D",
+			"gpu" : "NVIDIA RTX 4080 Super",
+			"ram" : "32GB DDR5-6000",
+			"storage" : "2TB NVMe Gen4"
+		}
+	},
+	"builder" : 
+	{
+		"cases" : 
+		[
+			{
+				"brand" : "NZXT",
+				"color" : "Black",
+				"formFactors" : 
+				[
+					"ATX",
+					"mATX",
+					"ITX"
+				],
+				"id" : "case1",
+				"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "NZXT H9 Flow",
+				"partType" : "case",
+				"price" : 159.99000000000001
+			},
+			{
+				"brand" : "Lian Li",
+				"color" : "White",
+				"formFactors" : 
+				[
+					"ATX",
+					"mATX",
+					"ITX"
+				],
+				"id" : "case2",
+				"image" : "https://images.unsplash.com/photo-1593640408182-1687630b5d73?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Lian Li O11 Dynamic EVO",
+				"partType" : "case",
+				"price" : 149.99000000000001
+			},
+			{
+				"brand" : "Fractal Design",
+				"color" : "Black",
+				"formFactors" : 
+				[
+					"mATX",
+					"ITX"
+				],
+				"id" : "case3",
+				"image" : "https://images.unsplash.com/photo-1593305841991-05c298ba4575?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Fractal Design Pop Mini Air",
+				"partType" : "case",
+				"price" : 89.989999999999995
+			}
+		],
+		"cpus" : 
+		[
+			{
+				"brand" : "AMD",
+				"cores" : 8,
+				"id" : "cpu1",
+				"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "AMD Ryzen 7 7800X3D",
+				"partType" : "cpu",
+				"price" : 399.99000000000001,
+				"socket" : "AM5",
+				"speed" : "4.2 GHz",
+				"tdp" : 120,
+				"threads" : 16
+			},
+			{
+				"brand" : "Intel",
+				"cores" : 20,
+				"id" : "cpu2",
+				"image" : "https://images.unsplash.com/photo-1591488320449-011701bb6704?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Intel Core i7-14700K",
+				"partType" : "cpu",
+				"price" : 409.99000000000001,
+				"socket" : "LGA1700",
+				"speed" : "3.4 GHz",
+				"tdp" : 253,
+				"threads" : 28
+			},
+			{
+				"brand" : "AMD",
+				"cores" : 6,
+				"id" : "cpu3",
+				"image" : "https://images.unsplash.com/photo-1518770660439-4631bf94bdc6?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "AMD Ryzen 5 7600X",
+				"partType" : "cpu",
+				"price" : 229.99000000000001,
+				"socket" : "AM5",
+				"speed" : "4.7 GHz",
+				"tdp" : 105,
+				"threads" : 12
+			},
+			{
+				"brand" : "Intel",
+				"cores" : 14,
+				"id" : "cpu4",
+				"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Intel Core i5-13600K",
+				"partType" : "cpu",
+				"price" : 289.99000000000001,
+				"socket" : "LGA1700",
+				"speed" : "3.5 GHz",
+				"tdp" : 181,
+				"threads" : 20
+			}
+		],
+		"gpus" : 
+		[
+			{
+				"brand" : "NVIDIA",
+				"chipset" : "RTX 4090",
+				"id" : "gpu1",
+				"image" : "https://images.unsplash.com/photo-1593305841991-05c298ba4575?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "NVIDIA GeForce RTX 4090",
+				"partType" : "gpu",
+				"price" : 1599.99,
+				"tdp" : 450,
+				"vram" : "24GB GDDR6X"
+			},
+			{
+				"brand" : "ASUS",
+				"chipset" : "RTX 4070 Ti Super",
+				"id" : "gpu2",
+				"image" : "https://images.unsplash.com/photo-1625842268584-8f3296236761?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "ASUS TUF RTX 4070 Ti Super",
+				"partType" : "gpu",
+				"price" : 799.99000000000001,
+				"tdp" : 285,
+				"vram" : "16GB GDDR6X"
+			},
+			{
+				"brand" : "Sapphire",
+				"chipset" : "RX 7900 XTX",
+				"id" : "gpu3",
+				"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Sapphire Nitro+ RX 7900 XTX",
+				"partType" : "gpu",
+				"price" : 999.99000000000001,
+				"tdp" : 355,
+				"vram" : "24GB GDDR6"
+			},
+			{
+				"brand" : "MSI",
+				"chipset" : "RTX 4060",
+				"id" : "gpu4",
+				"image" : "https://images.unsplash.com/photo-1593305841991-05c298ba4575?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "MSI Ventus 2X RTX 4060",
+				"partType" : "gpu",
+				"price" : 299.99000000000001,
+				"tdp" : 115,
+				"vram" : "8GB GDDR6"
+			}
+		],
+		"motherboards" : 
+		[
+			{
+				"brand" : "ASUS",
+				"formFactor" : "ATX",
+				"id" : "mb1",
+				"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "ASUS ROG Strix X670E-E",
+				"partType" : "motherboard",
+				"price" : 479.99000000000001,
+				"ramType" : "DDR5",
+				"socket" : "AM5"
+			},
+			{
+				"brand" : "MSI",
+				"formFactor" : "ATX",
+				"id" : "mb2",
+				"image" : "https://images.unsplash.com/photo-1518770660439-4631bf94bdc6?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "MSI MAG B650 Tomahawk",
+				"partType" : "motherboard",
+				"price" : 219.99000000000001,
+				"ramType" : "DDR5",
+				"socket" : "AM5"
+			},
+			{
+				"brand" : "Gigabyte",
+				"formFactor" : "ATX",
+				"id" : "mb3",
+				"image" : "https://images.unsplash.com/photo-1535378917022-7628bd8faaa9?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Gigabyte Z790 AORUS ELITE",
+				"partType" : "motherboard",
+				"price" : 259.99000000000001,
+				"ramType" : "DDR5",
+				"socket" : "LGA1700"
+			},
+			{
+				"brand" : "ASRock",
+				"formFactor" : "mATX",
+				"id" : "mb4",
+				"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "ASRock B760M Pro RS",
+				"partType" : "motherboard",
+				"price" : 129.99000000000001,
+				"ramType" : "DDR4",
+				"socket" : "LGA1700"
+			}
+		],
+		"psus" : 
+		[
+			{
+				"brand" : "Corsair",
+				"efficiency" : "80+ Gold",
+				"id" : "psu1",
+				"image" : "https://images.unsplash.com/photo-1587831990712-aa0401678eb8?fm=jpg&fit=crop&q=80&w=480",
+				"modular" : "Full",
+				"name" : "Corsair RM1000x",
+				"partType" : "psu",
+				"price" : 189.99000000000001,
+				"wattage" : 1000
+			},
+			{
+				"brand" : "EVGA",
+				"efficiency" : "80+ Gold",
+				"id" : "psu2",
+				"image" : "https://images.unsplash.com/photo-1593640408182-1687630b5d73?fm=jpg&fit=crop&q=80&w=480",
+				"modular" : "Full",
+				"name" : "EVGA SuperNOVA 850 G6",
+				"partType" : "psu",
+				"price" : 139.99000000000001,
+				"wattage" : 850
+			},
+			{
+				"brand" : "Thermaltake",
+				"efficiency" : "80+ White",
+				"id" : "psu3",
+				"image" : "https://images.unsplash.com/photo-1625842268584-8f3296236761?fm=jpg&fit=crop&q=80&w=480",
+				"modular" : "None",
+				"name" : "Thermaltake Smart 600W",
+				"partType" : "psu",
+				"price" : 44.990000000000002,
+				"wattage" : 600
+			}
+		],
+		"ram" : 
+		[
+			{
+				"brand" : "Corsair",
+				"capacity" : "32GB",
+				"id" : "ram1",
+				"image" : "https://images.unsplash.com/photo-1558495759-7e0dba836856?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Corsair Vengeance RGB 32GB",
+				"partType" : "ram",
+				"price" : 119.98999999999999,
+				"ramType" : "DDR5",
+				"speed" : "6000MHz"
+			},
+			{
+				"brand" : "G.Skill",
+				"capacity" : "64GB",
+				"id" : "ram2",
+				"image" : "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "G.Skill Trident Z5 Neo 64GB",
+				"partType" : "ram",
+				"price" : 214.99000000000001,
+				"ramType" : "DDR5",
+				"speed" : "6000MHz"
+			},
+			{
+				"brand" : "TeamGroup",
+				"capacity" : "32GB",
+				"id" : "ram3",
+				"image" : "https://images.unsplash.com/photo-1516321318529-f0f85e084e6a?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "TeamGroup T-Force Delta 32GB",
+				"partType" : "ram",
+				"price" : 74.989999999999995,
+				"ramType" : "DDR4",
+				"speed" : "3600MHz"
+			}
+		],
+		"storage" : 
+		[
+			{
+				"brand" : "Samsung",
+				"capacity" : "2TB",
+				"id" : "sto1",
+				"image" : "https://images.unsplash.com/photo-1597872200960-f24e5f9ece96?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Samsung 990 PRO 2TB",
+				"partFormFactor" : "M.2 2280",
+				"partType" : "storage",
+				"price" : 169.99000000000001,
+				"slotInterface" : "PCIe 4.0 x4"
+			},
+			{
+				"brand" : "Western Digital",
+				"capacity" : "1TB",
+				"id" : "sto2",
+				"image" : "https://images.unsplash.com/photo-1535378917022-7628bd8faaa9?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "WD Black SN850X 1TB",
+				"partFormFactor" : "M.2 2280",
+				"partType" : "storage",
+				"price" : 84.989999999999995,
+				"slotInterface" : "PCIe 4.0 x4"
+			},
+			{
+				"brand" : "Crucial",
+				"capacity" : "2TB",
+				"id" : "sto3",
+				"image" : "https://images.unsplash.com/photo-1558495759-7e0dba836856?fm=jpg&fit=crop&q=80&w=480",
+				"name" : "Crucial MX500 2TB",
+				"partFormFactor" : "2.5\"",
+				"partType" : "storage",
+				"price" : 109.98999999999999,
+				"slotInterface" : "SATA III"
+			}
+		]
+	},
+	"categories" : 
+	[
+		{
+			"id" : "laptops",
+			"label" : "Laptops"
+		},
+		{
+			"id" : "desktops",
+			"label" : "Desktops"
+		},
+		{
+			"id" : "components",
+			"label" : "Components"
+		},
+		{
+			"id" : "peripherals",
+			"label" : "Peripherals"
+		},
+		{
+			"id" : "monitors",
+			"label" : "Monitors"
+		},
+		{
+			"id" : "networking",
+			"label" : "Networking"
+		}
+	],
+	"content" : 
+	{
+		"accountProfile" : 
+		{
+			"displayName" : "HEX INSIDER",
+			"initials" : "HX",
+			"tier" : "Platinum \u00b7 Neon rewards tier"
+		},
+		"addresses" : 
+		[
+			{
+				"line1" : "Unit 904 \u00b7 Solaris Heights Tower",
+				"line2" : "Neo District \u00b7 NC 94108",
+				"tag" : "DEFAULT SHIPPING"
+			},
+			{
+				"line1" : "Nexus Apex \u00b7 Repair counter #04",
+				"line2" : "Orion Mall \u00b7 Level 02",
+				"tag" : "SERVICE DESK DROP"
+			}
+		],
+		"communityReviews" : 
+		[
+			{
+				"author" : "NebulaFam",
+				"body" : "Creator X9 melts through Blender with fans barely spinning.",
+				"productId" : "p1",
+				"stars" : 5
+			},
+			{
+				"author" : "TRAVEL OPS",
+				"body" : "Blade 16 survives red-eye installs; mini-LED is chef kiss.",
+				"productId" : "p2",
+				"stars" : 4
+			}
+		],
+		"helpFaqs" : 
+		[
+			{
+				"answer" : "15-day untouched gear window + restock fee waived for defects.",
+				"question" : "HOW DO RETURNS WORK?"
+			},
+			{
+				"answer" : "We flash BIOS profiles + chipset drivers prior to courier pickup.",
+				"question" : "BUILD SYNC?"
+			},
+			{
+				"answer" : "NexusCare extends accidental + advanced swap lockers.",
+				"question" : "WARRANTY TIERS?"
+			}
+		],
+		"loyalty" : 
+		{
+			"points" : 12482,
+			"progress" : 0.71999999999999997,
+			"tierLabel" : "Neon tier \u00b7 $50 voucher unlocked @ 13k pts."
+		},
+		"nearbyStock" : 
+		[
+			{
+				"productId" : "p2",
+				"shelfCount" : 8
+			},
+			{
+				"productId" : "lap-02",
+				"shelfCount" : 6
+			},
+			{
+				"productId" : "lap-03",
+				"shelfCount" : 7
+			},
+			{
+				"productId" : "lap-04",
+				"shelfCount" : 6
+			},
+			{
+				"productId" : "lap-05",
+				"shelfCount" : 9
+			},
+			{
+				"productId" : "lap-06",
+				"shelfCount" : 7
+			},
+			{
+				"productId" : "lap-07",
+				"shelfCount" : 6
+			},
+			{
+				"productId" : "lap-08",
+				"shelfCount" : 6
+			},
+			{
+				"productId" : "lap-09",
+				"shelfCount" : 5
+			},
+			{
+				"productId" : "lap-10",
+				"shelfCount" : 4
+			},
+			{
+				"productId" : "lap-11",
+				"shelfCount" : 5
+			},
+			{
+				"productId" : "lap-12",
+				"shelfCount" : 5
+			}
+		],
+		"notifications" : 
+		[
+			{
+				"date" : "2026-06-08",
+				"id" : "notif-1",
+				"message" : "Check out the new RTX 4090 Super builds in the Builder!",
+				"read" : false,
+				"title" : "Welcome to Nexus"
+			},
+			{
+				"date" : "2026-06-07",
+				"id" : "notif-2",
+				"message" : "Blade 16 Gaming Laptop is on the way via NeoShip Apex.",
+				"read" : false,
+				"title" : "Order NX-9014 shipped"
+			},
+			{
+				"date" : "2026-06-05",
+				"id" : "notif-3",
+				"message" : "-18% PSU bundles stack with cashback this weekend.",
+				"read" : true,
+				"title" : "Flash deal unlocked"
+			}
+		],
+		"paymentMethods" : 
+		[
+			{
+				"icon" : "credit_card",
+				"primary" : "VISA \u00b7\u2022\u20224421",
+				"subtitle" : "Primary fingerprint checkout"
+			},
+			{
+				"icon" : "wallet",
+				"primary" : "Nexus Pay balance",
+				"subtitle" : "$340.21 available"
+			}
+		],
+		"promotions" : 
+		[
+			{
+				"body" : "Stacks with cashback this weekend.",
+				"title" : "-18% PSU BUNDLES"
+			},
+			{
+				"body" : "Zero-interest window through June.",
+				"title" : "$240 READY RIG CREDIT"
+			},
+			{
+				"body" : "$79 \u00b7 concierge bench queue.",
+				"title" : "REPAIR FAST PASS"
+			}
+		],
+		"repairDeviceTypes" : 
+		[
+			"Gaming Laptop",
+			"Creator Station",
+			"Handheld",
+			"Custom loop rig"
+		],
+		"repairTracker" : 
+		{
+			"lead" : "Bench lead: Mara \u00b7 SLA 36h",
+			"steps" : 
+			[
+				{
+					"complete" : true,
+					"label" : "Intake QA scan"
+				},
+				{
+					"complete" : true,
+					"label" : "Bench thermals graphed"
+				},
+				{
+					"complete" : false,
+					"label" : "Customer bench sign-off"
+				},
+				{
+					"complete" : false,
+					"label" : "Pickup kiosk ready"
+				}
+			],
+			"ticketId" : "RT-88412",
+			"title" : "GPU HYBRID SWAP"
+		},
+		"searchHints" : 
+		[
+			"RTX 4090",
+			"gaming laptop",
+			"mechanical keyboard",
+			"4K monitor",
+			"Wi-Fi 7 router",
+			"DDR5 RAM",
+			"OLED monitor",
+			"wireless mouse"
+		],
+		"showcaseExtra" : 
+		{
+			"subtitle" : "Neo Central sunday stream tap-in",
+			"title" : "LIVE PODCAST RIG"
+		},
+		"storeLocations" : 
+		[
+			{
+				"lat" : 11.562099999999999,
+				"lng" : 104.91889999999999,
+				"name" : "Nexus Central Flagship",
+				"subtitle" : "2.4 km \u00b7 open until 21:00"
+			},
+			{
+				"lat" : 11.5489,
+				"lng" : 104.9421,
+				"name" : "Solaris Pop-up Lounge",
+				"subtitle" : "6.9 km \u00b7 custom demos"
+			},
+			{
+				"lat" : 11.5702,
+				"lng" : 104.931,
+				"name" : "Orion Repair Bar",
+				"subtitle" : "3.8 km \u00b7 bench consult"
+			}
+		]
+	},
+	"featuredProducts" : 
+	[
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 72,
+				"productivity" : 75
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "p2",
+			"image" : "https://images.unsplash.com/photo-1496181133206-28316bce0eed?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Blade 16 Gaming Laptop",
+			"price" : 1899.99,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7945HX",
+				"display" : "16\" QHD 240Hz",
+				"gpu" : "NVIDIA RTX 4070",
+				"ram" : "16GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 79,
+				"productivity" : 82
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-02",
+			"image" : "https://images.unsplash.com/photo-1525547719578-a369d4577843?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Nebula X9 Creator Pro",
+			"price" : 971.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900HX",
+				"display" : "15.6\" FHD 144Hz",
+				"gpu" : "NVIDIA RTX 4060",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 86,
+				"productivity" : 89
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-03",
+			"image" : "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : true,
+			"name" : "Aero 15 Ultrabook",
+			"price" : 1030.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Apple M3 Pro",
+				"display" : "14\" OLED 2.8K",
+				"gpu" : "RTX 4080 Laptop",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 93,
+				"productivity" : 96
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-04",
+			"image" : "https://images.unsplash.com/photo-1527864550417-7fdaf96b076f?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "StormBook Pro 14",
+			"price" : 1090.7,
+			"specs" : 
+			{
+				"cpu" : "Intel Core Ultra 7",
+				"display" : "17.3\" QHD",
+				"gpu" : "RX 7600M XT",
+				"ram" : "32GB LPDDR5X",
+				"storage" : "1TB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 70,
+				"productivity" : 73
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-05",
+			"image" : "https://images.unsplash.com/photo-1588873550118-5fc1ee010322?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Pulse 17 RTX Studio",
+			"price" : 1150.5,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 7 8845HS",
+				"display" : "13.3\" FHD IPS",
+				"gpu" : "Integrated Arc",
+				"ram" : "16GB DDR4",
+				"storage" : "512GB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 77,
+				"productivity" : 80
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-06",
+			"image" : "https://images.unsplash.com/photo-1603302576837-37561b2e2302?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Zenith Air 13",
+			"price" : 1210.3,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7945HX",
+				"display" : "16\" QHD 240Hz",
+				"gpu" : "NVIDIA RTX 4070",
+				"ram" : "16GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 84,
+				"productivity" : 87
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-07",
+			"image" : "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Forge 15 AMD Advantage",
+			"price" : 1270.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900HX",
+				"display" : "15.6\" FHD 144Hz",
+				"gpu" : "NVIDIA RTX 4060",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 91,
+				"productivity" : 94
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-08",
+			"image" : "https://images.unsplash.com/photo-1593642632823-8f785ba67ff5?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Cipher Slim Business",
+			"price" : 1329.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Apple M3 Pro",
+				"display" : "14\" OLED 2.8K",
+				"gpu" : "RTX 4080 Laptop",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 68,
+				"productivity" : 71
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-09",
+			"image" : "https://images.unsplash.com/photo-1496181133206-28316bce0eed?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Vortex G16 OLED",
+			"price" : 1389.7,
+			"specs" : 
+			{
+				"cpu" : "Intel Core Ultra 7",
+				"display" : "17.3\" QHD",
+				"gpu" : "RX 7600M XT",
+				"ram" : "32GB LPDDR5X",
+				"storage" : "1TB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 75,
+				"productivity" : 78
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-10",
+			"image" : "https://images.unsplash.com/photo-1525547719578-a369d4577843?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "NovaBook Carbon X1",
+			"price" : 1449.5,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 7 8845HS",
+				"display" : "13.3\" FHD IPS",
+				"gpu" : "Integrated Arc",
+				"ram" : "16GB DDR4",
+				"storage" : "512GB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 82,
+				"productivity" : 85
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-11",
+			"image" : "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Titan 18 Max-Q",
+			"price" : 1509.3,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7945HX",
+				"display" : "16\" QHD 240Hz",
+				"gpu" : "NVIDIA RTX 4070",
+				"ram" : "16GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 89,
+				"productivity" : 92
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-12",
+			"image" : "https://images.unsplash.com/photo-1527864550417-7fdaf96b076f?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Echo 14 Student Edition",
+			"price" : 1569.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900HX",
+				"display" : "15.6\" FHD 144Hz",
+				"gpu" : "NVIDIA RTX 4060",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 66,
+				"productivity" : 69
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-13",
+			"image" : "https://images.unsplash.com/photo-1588873550118-5fc1ee010322?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Rift 16 Esports Edition",
+			"price" : 1628.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Apple M3 Pro",
+				"display" : "14\" OLED 2.8K",
+				"gpu" : "RTX 4080 Laptop",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 73,
+				"productivity" : 76
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-14",
+			"image" : "https://images.unsplash.com/photo-1603302576837-37561b2e2302?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Prism 15 QHD+",
+			"price" : 1688.7,
+			"specs" : 
+			{
+				"cpu" : "Intel Core Ultra 7",
+				"display" : "17.3\" QHD",
+				"gpu" : "RX 7600M XT",
+				"ram" : "32GB LPDDR5X",
+				"storage" : "1TB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 80,
+				"productivity" : 83
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-15",
+			"image" : "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Atlas Pro Workstation",
+			"price" : 1748.5,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 7 8845HS",
+				"display" : "13.3\" FHD IPS",
+				"gpu" : "Integrated Arc",
+				"ram" : "16GB DDR4",
+				"storage" : "512GB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 87,
+				"productivity" : 90
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-16",
+			"image" : "https://images.unsplash.com/photo-1593642632823-8f785ba67ff5?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Horizon 13 Touch",
+			"price" : 1808.3,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7945HX",
+				"display" : "16\" QHD 240Hz",
+				"gpu" : "NVIDIA RTX 4070",
+				"ram" : "16GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 94,
+				"productivity" : 97
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-17",
+			"image" : "https://images.unsplash.com/photo-1496181133206-28316bce0eed?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Flux 14 Hybrid",
+			"price" : 1868.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900HX",
+				"display" : "15.6\" FHD 144Hz",
+				"gpu" : "NVIDIA RTX 4060",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 71,
+				"productivity" : 74
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-18",
+			"image" : "https://images.unsplash.com/photo-1525547719578-a369d4577843?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Core 16 Performance",
+			"price" : 1927.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Apple M3 Pro",
+				"display" : "14\" OLED 2.8K",
+				"gpu" : "RTX 4080 Laptop",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 78,
+				"productivity" : 81
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-19",
+			"image" : "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Lumen 15 Creator",
+			"price" : 1987.7,
+			"specs" : 
+			{
+				"cpu" : "Intel Core Ultra 7",
+				"display" : "17.3\" QHD",
+				"gpu" : "RX 7600M XT",
+				"ram" : "32GB LPDDR5X",
+				"storage" : "1TB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 85,
+				"productivity" : 88
+			},
+			"category" : "Laptops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "lap-20",
+			"image" : "https://images.unsplash.com/photo-1527864550417-7fdaf96b076f?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Spark 14 Everyday",
+			"price" : 2047.5,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 7 8845HS",
+				"display" : "13.3\" FHD IPS",
+				"gpu" : "Integrated Arc",
+				"ram" : "16GB DDR4",
+				"storage" : "512GB SSD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 73,
+				"productivity" : 76
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "p1",
+			"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Nebula X9 Creator Tower",
+			"price" : 2499.9899999999998,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900K",
+				"gpu" : "RTX 4090",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 80,
+				"productivity" : 83
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-02",
+			"image" : "https://images.unsplash.com/photo-1593640408182-1687630b5d73?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Neon Phantom RGB Rig",
+			"price" : 1271.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7950X",
+				"gpu" : "RTX 4080 Super",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 87,
+				"productivity" : 90
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-03",
+			"image" : "https://images.unsplash.com/photo-1587831990712-aa0401678eb8?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : true,
+			"name" : "Apex Forge Mini ITX",
+			"price" : 1330.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 7 7800X3D",
+				"gpu" : "RTX 4070 Ti",
+				"ram" : "16GB DDR5",
+				"storage" : "4TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 94,
+				"productivity" : 97
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-04",
+			"image" : "https://images.unsplash.com/photo-1593305841991-05c298ba4575?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Quantum Station Pro",
+			"price" : 1390.7,
+			"specs" : 
+			{
+				"cpu" : "Core i7-14700F",
+				"gpu" : "RX 7900 XTX",
+				"ram" : "32GB DDR4",
+				"storage" : "2TB SSD + 4TB HDD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 71,
+				"productivity" : 74
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-05",
+			"image" : "https://images.unsplash.com/photo-1555066930-ef23a945d609?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Obsidian Gaming PC",
+			"price" : 1450.5,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 5 7600",
+				"gpu" : "RTX 4060 Ti",
+				"ram" : "128GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 78,
+				"productivity" : 81
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-06",
+			"image" : "https://images.unsplash.com/photo-1544199447-0c2c5981ab9a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Solaris Workstation",
+			"price" : 1510.3,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900K",
+				"gpu" : "RTX 4090",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 85,
+				"productivity" : 88
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-07",
+			"image" : "https://images.unsplash.com/photo-1597852074816-64c65611ab8a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Carbon Elite Desktop",
+			"price" : 1570.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7950X",
+				"gpu" : "RTX 4080 Super",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 92,
+				"productivity" : 95
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-08",
+			"image" : "https://images.unsplash.com/photo-1625842268584-8f3296236761?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Pulse RTX Battlestation",
+			"price" : 1629.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 7 7800X3D",
+				"gpu" : "RTX 4070 Ti",
+				"ram" : "16GB DDR5",
+				"storage" : "4TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 69,
+				"productivity" : 72
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-09",
+			"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Vertex SFF Cube",
+			"price" : 1689.7,
+			"specs" : 
+			{
+				"cpu" : "Core i7-14700F",
+				"gpu" : "RX 7900 XTX",
+				"ram" : "32GB DDR4",
+				"storage" : "2TB SSD + 4TB HDD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 76,
+				"productivity" : 79
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-10",
+			"image" : "https://images.unsplash.com/photo-1593640408182-1687630b5d73?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Horizon All-in-One 27",
+			"price" : 1749.5,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 5 7600",
+				"gpu" : "RTX 4060 Ti",
+				"ram" : "128GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 83,
+				"productivity" : 86
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-11",
+			"image" : "https://images.unsplash.com/photo-1587831990712-aa0401678eb8?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Titan Watercooled Loop",
+			"price" : 1809.3,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900K",
+				"gpu" : "RTX 4090",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 90,
+				"productivity" : 93
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-12",
+			"image" : "https://images.unsplash.com/photo-1593305841991-05c298ba4575?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Nova Prebuilt Pro",
+			"price" : 1869.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7950X",
+				"gpu" : "RTX 4080 Super",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 67,
+				"productivity" : 70
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-13",
+			"image" : "https://images.unsplash.com/photo-1555066930-ef23a945d609?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Cipher Office Tower",
+			"price" : 1928.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 7 7800X3D",
+				"gpu" : "RTX 4070 Ti",
+				"ram" : "16GB DDR5",
+				"storage" : "4TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 74,
+				"productivity" : 77
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-14",
+			"image" : "https://images.unsplash.com/photo-1544199447-0c2c5981ab9a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Storm RGB Mid-Tower",
+			"price" : 1988.7,
+			"specs" : 
+			{
+				"cpu" : "Core i7-14700F",
+				"gpu" : "RX 7900 XTX",
+				"ram" : "32GB DDR4",
+				"storage" : "2TB SSD + 4TB HDD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 81,
+				"productivity" : 84
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-15",
+			"image" : "https://images.unsplash.com/photo-1597852074816-64c65611ab8a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Prism Creator Box",
+			"price" : 2048.5,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 5 7600",
+				"gpu" : "RTX 4060 Ti",
+				"ram" : "128GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 88,
+				"productivity" : 91
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-16",
+			"image" : "https://images.unsplash.com/photo-1625842268584-8f3296236761?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Atlas Dual-GPU Rig",
+			"price" : 2108.3000000000002,
+			"specs" : 
+			{
+				"cpu" : "Intel Core i9-14900K",
+				"gpu" : "RTX 4090",
+				"ram" : "32GB DDR5",
+				"storage" : "1TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 65,
+				"productivity" : 68
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-17",
+			"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Echo Budget Build",
+			"price" : 2168.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "AMD Ryzen 9 7950X",
+				"gpu" : "RTX 4080 Super",
+				"ram" : "64GB DDR5",
+				"storage" : "2TB NVMe Gen4"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 72,
+				"productivity" : 75
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-18",
+			"image" : "https://images.unsplash.com/photo-1593640408182-1687630b5d73?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Flux Compact PC",
+			"price" : 2227.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 7 7800X3D",
+				"gpu" : "RTX 4070 Ti",
+				"ram" : "16GB DDR5",
+				"storage" : "4TB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 79,
+				"productivity" : 82
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-19",
+			"image" : "https://images.unsplash.com/photo-1587831990712-aa0401678eb8?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Core Performance Tower",
+			"price" : 2287.6999999999998,
+			"specs" : 
+			{
+				"cpu" : "Core i7-14700F",
+				"gpu" : "RX 7900 XTX",
+				"ram" : "32GB DDR4",
+				"storage" : "2TB SSD + 4TB HDD"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 86,
+				"productivity" : 89
+			},
+			"category" : "Desktops",
+			"configOptions" : 
+			{
+				"ram" : 
+				[
+					"16GB",
+					"32GB",
+					"64GB"
+				],
+				"storage" : 
+				[
+					"512GB",
+					"1TB",
+					"2TB"
+				]
+			},
+			"id" : "desk-20",
+			"image" : "https://images.unsplash.com/photo-1593305841991-05c298ba4575?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Lumen Silent Desktop",
+			"price" : 2347.5,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 5 7600",
+				"gpu" : "RTX 4060 Ti",
+				"ram" : "128GB DDR5",
+				"storage" : "512GB NVMe"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 75,
+				"productivity" : 78
+			},
+			"category" : "Components",
+			"id" : "comp-01",
+			"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "AMD Ryzen 9 7950X3D",
+			"price" : 61.299999999999997,
+			"specs" : 
+			{
+				"cpu" : "8-core / 16-thread",
+				"gpu" : "24GB VRAM",
+				"ram" : "DDR5-6000",
+				"storage" : "M.2 2280"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 82,
+				"productivity" : 85
+			},
+			"category" : "Components",
+			"id" : "comp-02",
+			"image" : "https://images.unsplash.com/photo-1591488320449-011701bb6704?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Intel Core i9-14900K",
+			"price" : 121.09999999999999,
+			"specs" : 
+			{
+				"cpu" : "16-core / 32-thread",
+				"gpu" : "16GB GDDR6X",
+				"ram" : "DDR5-5600",
+				"storage" : "M.2 heatsink"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 89,
+				"productivity" : 92
+			},
+			"category" : "Components",
+			"id" : "comp-03",
+			"image" : "https://images.unsplash.com/photo-1518770660439-4631bf94bdc6?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : true,
+			"name" : "NVIDIA RTX 4090 Founders",
+			"price" : 180.90000000000001,
+			"specs" : 
+			{
+				"cpu" : "24-core hybrid",
+				"gpu" : "32GB DDR5 kit",
+				"ram" : "DDR4-3600",
+				"storage" : "ATX mid-tower"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 66,
+				"productivity" : 69
+			},
+			"category" : "Components",
+			"id" : "comp-04",
+			"image" : "https://images.unsplash.com/photo-1518544805756-f3037f79b4b9?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "ASUS TUF RTX 4070 Ti Super",
+			"price" : 240.69999999999999,
+			"specs" : 
+			{
+				"cpu" : "6-core / 12-thread",
+				"gpu" : "2TB PCIe 4.0",
+				"ram" : "PCIe 4.0 x4",
+				"storage" : "360mm AIO"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 73,
+				"productivity" : 76
+			},
+			"category" : "Components",
+			"id" : "comp-05",
+			"image" : "https://images.unsplash.com/photo-1558495759-7e0dba836856?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Corsair Vengeance 64GB DDR5",
+			"price" : 300.5,
+			"specs" : 
+			{
+				"cpu" : "20-core hybrid",
+				"gpu" : "1000W 80+ Gold",
+				"ram" : "AM5 / LGA1700",
+				"storage" : "Dual-fan air"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 80,
+				"productivity" : 83
+			},
+			"category" : "Components",
+			"id" : "comp-06",
+			"image" : "https://images.unsplash.com/photo-1516321318529-f0f85e084e6a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Samsung 990 PRO 2TB",
+			"price" : 360.30000000000001,
+			"specs" : 
+			{
+				"cpu" : "8-core / 16-thread",
+				"gpu" : "24GB VRAM",
+				"ram" : "DDR5-6000",
+				"storage" : "M.2 2280"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 87,
+				"productivity" : 90
+			},
+			"category" : "Components",
+			"id" : "comp-07",
+			"image" : "https://images.unsplash.com/photo-1535378917022-7628bd8faaa9?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "WD Black SN850X 4TB",
+			"price" : 420.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "16-core / 32-thread",
+				"gpu" : "16GB GDDR6X",
+				"ram" : "DDR5-5600",
+				"storage" : "M.2 heatsink"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 94,
+				"productivity" : 97
+			},
+			"category" : "Components",
+			"id" : "comp-08",
+			"image" : "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "ASUS ROG Strix X670E-E",
+			"price" : 479.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "24-core hybrid",
+				"gpu" : "32GB DDR5 kit",
+				"ram" : "DDR4-3600",
+				"storage" : "ATX mid-tower"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 71,
+				"productivity" : 74
+			},
+			"category" : "Components",
+			"id" : "comp-09",
+			"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "MSI MAG B650 Tomahawk",
+			"price" : 539.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "6-core / 12-thread",
+				"gpu" : "2TB PCIe 4.0",
+				"ram" : "PCIe 4.0 x4",
+				"storage" : "360mm AIO"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 78,
+				"productivity" : 81
+			},
+			"category" : "Components",
+			"id" : "comp-10",
+			"image" : "https://images.unsplash.com/photo-1591488320449-011701bb6704?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Corsair RM1000x PSU",
+			"price" : 599.5,
+			"specs" : 
+			{
+				"cpu" : "20-core hybrid",
+				"gpu" : "1000W 80+ Gold",
+				"ram" : "AM5 / LGA1700",
+				"storage" : "Dual-fan air"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 85,
+				"productivity" : 88
+			},
+			"category" : "Components",
+			"id" : "comp-11",
+			"image" : "https://images.unsplash.com/photo-1518770660439-4631bf94bdc6?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "NZXT Kraken 360 AIO",
+			"price" : 659.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "8-core / 16-thread",
+				"gpu" : "24GB VRAM",
+				"ram" : "DDR5-6000",
+				"storage" : "M.2 2280"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 92,
+				"productivity" : 95
+			},
+			"category" : "Components",
+			"id" : "comp-12",
+			"image" : "https://images.unsplash.com/photo-1518544805756-f3037f79b4b9?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Noctua NH-D15 Cooler",
+			"price" : 719.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "16-core / 32-thread",
+				"gpu" : "16GB GDDR6X",
+				"ram" : "DDR5-5600",
+				"storage" : "M.2 heatsink"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 69,
+				"productivity" : 72
+			},
+			"category" : "Components",
+			"id" : "comp-13",
+			"image" : "https://images.unsplash.com/photo-1558495759-7e0dba836856?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "G.Skill Trident Z5 32GB",
+			"price" : 778.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "24-core hybrid",
+				"gpu" : "32GB DDR5 kit",
+				"ram" : "DDR4-3600",
+				"storage" : "ATX mid-tower"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 76,
+				"productivity" : 79
+			},
+			"category" : "Components",
+			"id" : "comp-14",
+			"image" : "https://images.unsplash.com/photo-1516321318529-f0f85e084e6a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Sapphire RX 7900 XTX Nitro+",
+			"price" : 838.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "6-core / 12-thread",
+				"gpu" : "2TB PCIe 4.0",
+				"ram" : "PCIe 4.0 x4",
+				"storage" : "360mm AIO"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 83,
+				"productivity" : 86
+			},
+			"category" : "Components",
+			"id" : "comp-15",
+			"image" : "https://images.unsplash.com/photo-1535378917022-7628bd8faaa9?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Intel Arc A770 16GB",
+			"price" : 898.5,
+			"specs" : 
+			{
+				"cpu" : "20-core hybrid",
+				"gpu" : "1000W 80+ Gold",
+				"ram" : "AM5 / LGA1700",
+				"storage" : "Dual-fan air"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 90,
+				"productivity" : 93
+			},
+			"category" : "Components",
+			"id" : "comp-16",
+			"image" : "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Crucial P5 Plus 1TB",
+			"price" : 958.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "8-core / 16-thread",
+				"gpu" : "24GB VRAM",
+				"ram" : "DDR5-6000",
+				"storage" : "M.2 2280"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 67,
+				"productivity" : 70
+			},
+			"category" : "Components",
+			"id" : "comp-17",
+			"image" : "https://images.unsplash.com/photo-1555611709-359d5a2ebfcb?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "EVGA SuperNOVA 850W",
+			"price" : 1018.1,
+			"specs" : 
+			{
+				"cpu" : "16-core / 32-thread",
+				"gpu" : "16GB GDDR6X",
+				"ram" : "DDR5-5600",
+				"storage" : "M.2 heatsink"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 74,
+				"productivity" : 77
+			},
+			"category" : "Components",
+			"id" : "comp-18",
+			"image" : "https://images.unsplash.com/photo-1591488320449-011701bb6704?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Fractal North Case",
+			"price" : 1077.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "24-core hybrid",
+				"gpu" : "32GB DDR5 kit",
+				"ram" : "DDR4-3600",
+				"storage" : "ATX mid-tower"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 81,
+				"productivity" : 84
+			},
+			"category" : "Components",
+			"id" : "comp-19",
+			"image" : "https://images.unsplash.com/photo-1518770660439-4631bf94bdc6?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Lian Li O11 Dynamic EVO",
+			"price" : 1137.7,
+			"specs" : 
+			{
+				"cpu" : "6-core / 12-thread",
+				"gpu" : "2TB PCIe 4.0",
+				"ram" : "PCIe 4.0 x4",
+				"storage" : "360mm AIO"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 88,
+				"productivity" : 91
+			},
+			"category" : "Components",
+			"id" : "comp-20",
+			"image" : "https://images.unsplash.com/photo-1518544805756-f3037f79b4b9?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Thermal Grizzly Paste Kit",
+			"price" : 1197.5,
+			"specs" : 
+			{
+				"cpu" : "20-core hybrid",
+				"gpu" : "1000W 80+ Gold",
+				"ram" : "AM5 / LGA1700",
+				"storage" : "Dual-fan air"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 76,
+				"productivity" : 79
+			},
+			"category" : "Peripherals",
+			"id" : "peri-01",
+			"image" : "https://images.unsplash.com/photo-1527814050087-3793815479db?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Razer BlackWidow V4 Pro",
+			"price" : 41.299999999999997,
+			"specs" : 
+			{
+				"cpu" : "Mechanical switches",
+				"gpu" : "RGB per-key",
+				"ram" : "TKL layout",
+				"storage" : "USB passthrough"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 83,
+				"productivity" : 86
+			},
+			"category" : "Peripherals",
+			"id" : "peri-02",
+			"image" : "https://images.unsplash.com/photo-1615663243467-995a34756167?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Logitech G Pro X Superlight 2",
+			"price" : 101.09999999999999,
+			"specs" : 
+			{
+				"cpu" : "26K DPI sensor",
+				"gpu" : "Wireless 2.4GHz",
+				"ram" : "63g ultralight",
+				"storage" : "Onboard memory"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 90,
+				"productivity" : 93
+			},
+			"category" : "Peripherals",
+			"id" : "peri-03",
+			"image" : "https://images.unsplash.com/photo-1527864540777-5be825f4cfb4?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : true,
+			"name" : "SteelSeries Arctis Nova Pro",
+			"price" : 160.90000000000001,
+			"specs" : 
+			{
+				"cpu" : "Hi-Res drivers",
+				"gpu" : "Active noise cancel",
+				"ram" : "Dual wireless",
+				"storage" : "Detachable mic"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 67,
+				"productivity" : 70
+			},
+			"category" : "Peripherals",
+			"id" : "peri-04",
+			"image" : "https://images.unsplash.com/photo-1618384887929-16c4d333021a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "HyperX Cloud III Wireless",
+			"price" : 220.69999999999999,
+			"specs" : 
+			{
+				"cpu" : "50hr battery",
+				"gpu" : "USB-C + BT",
+				"ram" : "Stream deck keys",
+				"storage" : "Magnetic dock"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 74,
+				"productivity" : 77
+			},
+			"category" : "Peripherals",
+			"id" : "peri-05",
+			"image" : "https://images.unsplash.com/photo-1625723044790-d741a4b960c4?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Keychron Q1 Pro Mechanical",
+			"price" : 280.5,
+			"specs" : 
+			{
+				"cpu" : "Hot-swappable",
+				"gpu" : "Alcantara wrist",
+				"ram" : "Haptic feedback",
+				"storage" : "Low-latency"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 81,
+				"productivity" : 84
+			},
+			"category" : "Peripherals",
+			"id" : "peri-06",
+			"image" : "https://images.unsplash.com/photo-1615663243467-995a34756167?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Corsair K70 RGB TKL",
+			"price" : 340.30000000000001,
+			"specs" : 
+			{
+				"cpu" : "Mechanical switches",
+				"gpu" : "RGB per-key",
+				"ram" : "TKL layout",
+				"storage" : "USB passthrough"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 88,
+				"productivity" : 91
+			},
+			"category" : "Peripherals",
+			"id" : "peri-07",
+			"image" : "https://images.unsplash.com/photo-1587829741301-dc798b83add3?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Logitech MX Master 3S",
+			"price" : 400.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "26K DPI sensor",
+				"gpu" : "Wireless 2.4GHz",
+				"ram" : "63g ultralight",
+				"storage" : "Onboard memory"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 65,
+				"productivity" : 68
+			},
+			"category" : "Peripherals",
+			"id" : "peri-08",
+			"image" : "https://images.unsplash.com/photo-1611186871348-b1ce696e52be?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Razer Viper V3 HyperSpeed",
+			"price" : 459.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "Hi-Res drivers",
+				"gpu" : "Active noise cancel",
+				"ram" : "Dual wireless",
+				"storage" : "Detachable mic"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 72,
+				"productivity" : 75
+			},
+			"category" : "Peripherals",
+			"id" : "peri-09",
+			"image" : "https://images.unsplash.com/photo-1527814050087-3793815479db?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Elgato Facecam Pro 4K",
+			"price" : 519.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "50hr battery",
+				"gpu" : "USB-C + BT",
+				"ram" : "Stream deck keys",
+				"storage" : "Magnetic dock"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 79,
+				"productivity" : 82
+			},
+			"category" : "Peripherals",
+			"id" : "peri-10",
+			"image" : "https://images.unsplash.com/photo-1615663243467-995a34756167?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Blue Yeti X Microphone",
+			"price" : 579.5,
+			"specs" : 
+			{
+				"cpu" : "Hot-swappable",
+				"gpu" : "Alcantara wrist",
+				"ram" : "Haptic feedback",
+				"storage" : "Low-latency"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 86,
+				"productivity" : 89
+			},
+			"category" : "Peripherals",
+			"id" : "peri-11",
+			"image" : "https://images.unsplash.com/photo-1527864540777-5be825f4cfb4?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Secretlab Titan Evo Chair",
+			"price" : 639.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "Mechanical switches",
+				"gpu" : "RGB per-key",
+				"ram" : "TKL layout",
+				"storage" : "USB passthrough"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 93,
+				"productivity" : 96
+			},
+			"category" : "Peripherals",
+			"id" : "peri-12",
+			"image" : "https://images.unsplash.com/photo-1618384887929-16c4d333021a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Logitech G923 Racing Wheel",
+			"price" : 699.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "26K DPI sensor",
+				"gpu" : "Wireless 2.4GHz",
+				"ram" : "63g ultralight",
+				"storage" : "Onboard memory"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 70,
+				"productivity" : 73
+			},
+			"category" : "Peripherals",
+			"id" : "peri-13",
+			"image" : "https://images.unsplash.com/photo-1625723044790-d741a4b960c4?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Wacom Intuos Pro Tablet",
+			"price" : 758.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "Hi-Res drivers",
+				"gpu" : "Active noise cancel",
+				"ram" : "Dual wireless",
+				"storage" : "Detachable mic"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 77,
+				"productivity" : 80
+			},
+			"category" : "Peripherals",
+			"id" : "peri-14",
+			"image" : "https://images.unsplash.com/photo-1615663243467-995a34756167?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Razer Huntsman V3 Analog",
+			"price" : 818.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "50hr battery",
+				"gpu" : "USB-C + BT",
+				"ram" : "Stream deck keys",
+				"storage" : "Magnetic dock"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 84,
+				"productivity" : 87
+			},
+			"category" : "Peripherals",
+			"id" : "peri-15",
+			"image" : "https://images.unsplash.com/photo-1587829741301-dc798b83add3?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "SteelSeries Apex Pro TKL",
+			"price" : 878.5,
+			"specs" : 
+			{
+				"cpu" : "Hot-swappable",
+				"gpu" : "Alcantara wrist",
+				"ram" : "Haptic feedback",
+				"storage" : "Low-latency"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 91,
+				"productivity" : 94
+			},
+			"category" : "Peripherals",
+			"id" : "peri-16",
+			"image" : "https://images.unsplash.com/photo-1611186871348-b1ce696e52be?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "HyperX Pulsefire Haste 2",
+			"price" : 938.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "Mechanical switches",
+				"gpu" : "RGB per-key",
+				"ram" : "TKL layout",
+				"storage" : "USB passthrough"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 68,
+				"productivity" : 71
+			},
+			"category" : "Peripherals",
+			"id" : "peri-17",
+			"image" : "https://images.unsplash.com/photo-1527814050087-3793815479db?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Logitech G733 Lightspeed",
+			"price" : 998.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "26K DPI sensor",
+				"gpu" : "Wireless 2.4GHz",
+				"ram" : "63g ultralight",
+				"storage" : "Onboard memory"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 75,
+				"productivity" : 78
+			},
+			"category" : "Peripherals",
+			"id" : "peri-18",
+			"image" : "https://images.unsplash.com/photo-1615663243467-995a34756167?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "ASUS ROG Falchion Ace",
+			"price" : 1057.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "Hi-Res drivers",
+				"gpu" : "Active noise cancel",
+				"ram" : "Dual wireless",
+				"storage" : "Detachable mic"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 82,
+				"productivity" : 85
+			},
+			"category" : "Peripherals",
+			"id" : "peri-19",
+			"image" : "https://images.unsplash.com/photo-1527864540777-5be825f4cfb4?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Corsair MM700 RGB Extended Pad",
+			"price" : 1117.7,
+			"specs" : 
+			{
+				"cpu" : "50hr battery",
+				"gpu" : "USB-C + BT",
+				"ram" : "Stream deck keys",
+				"storage" : "Magnetic dock"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 89,
+				"productivity" : 92
+			},
+			"category" : "Peripherals",
+			"id" : "peri-20",
+			"image" : "https://images.unsplash.com/photo-1618384887929-16c4d333021a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Elgato Stream Deck MK.2",
+			"price" : 1177.5,
+			"specs" : 
+			{
+				"cpu" : "Hot-swappable",
+				"gpu" : "Alcantara wrist",
+				"ram" : "Haptic feedback",
+				"storage" : "Low-latency"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 73,
+				"productivity" : 76
+			},
+			"category" : "Monitors",
+			"id" : "mon-01",
+			"image" : "https://images.unsplash.com/photo-1527443224537-d091fcccb3a0?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Samsung Odyssey G9 49\"",
+			"price" : 211.30000000000001,
+			"specs" : 
+			{
+				"cpu" : "Curved VA",
+				"display" : "49\" DQHD 240Hz",
+				"gpu" : "HDR1000"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 80,
+				"productivity" : 83
+			},
+			"category" : "Monitors",
+			"id" : "mon-02",
+			"image" : "https://images.unsplash.com/photo-1593508510753-7d34d307b699?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "LG UltraGear 27\" OLED",
+			"price" : 271.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "IPS Black",
+				"display" : "27\" 4K OLED",
+				"gpu" : "G-Sync Compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 87,
+				"productivity" : 90
+			},
+			"category" : "Monitors",
+			"id" : "mon-03",
+			"image" : "https://images.unsplash.com/photo-1504639728390-d6f022288447?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : true,
+			"name" : "ASUS ROG Swift PG32UQX",
+			"price" : 330.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "QD-OLED panel",
+				"display" : "32\" 4K 144Hz",
+				"gpu" : "USB-C 90W"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 94,
+				"productivity" : 97
+			},
+			"category" : "Monitors",
+			"id" : "mon-04",
+			"image" : "https://images.unsplash.com/photo-1614624532983-4ce03382d63c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Dell UltraSharp U2723QE 4K",
+			"price" : 390.69999999999999,
+			"specs" : 
+			{
+				"cpu" : "Nano IPS",
+				"display" : "34\" Ultrawide 165Hz",
+				"gpu" : "Mini-LED local dimming"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 71,
+				"productivity" : 74
+			},
+			"category" : "Monitors",
+			"id" : "mon-05",
+			"image" : "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "MSI MAG 344CQR Ultrawide",
+			"price" : 450.5,
+			"specs" : 
+			{
+				"cpu" : "Fast IPS",
+				"display" : "27\" QHD IPS",
+				"gpu" : "1ms GtG"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 78,
+				"productivity" : 81
+			},
+			"category" : "Monitors",
+			"id" : "mon-06",
+			"image" : "https://images.unsplash.com/photo-1614624532983-4ce03382d63c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "BenQ MOBIUZ EX3210U",
+			"price" : 510.30000000000001,
+			"specs" : 
+			{
+				"cpu" : "Curved VA",
+				"display" : "49\" DQHD 240Hz",
+				"gpu" : "HDR1000"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 85,
+				"productivity" : 88
+			},
+			"category" : "Monitors",
+			"id" : "mon-07",
+			"image" : "https://images.unsplash.com/photo-1498050108023-c5249f4df085?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Alienware AW3423DW QD-OLED",
+			"price" : 570.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "IPS Black",
+				"display" : "27\" 4K OLED",
+				"gpu" : "G-Sync Compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 92,
+				"productivity" : 95
+			},
+			"category" : "Monitors",
+			"id" : "mon-08",
+			"image" : "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Gigabyte M32U 4K 144Hz",
+			"price" : 629.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "QD-OLED panel",
+				"display" : "32\" 4K 144Hz",
+				"gpu" : "USB-C 90W"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 69,
+				"productivity" : 72
+			},
+			"category" : "Monitors",
+			"id" : "mon-09",
+			"image" : "https://images.unsplash.com/photo-1527443224537-d091fcccb3a0?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "ViewSonic VP2768-4K",
+			"price" : 689.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "Nano IPS",
+				"display" : "34\" Ultrawide 165Hz",
+				"gpu" : "Mini-LED local dimming"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 76,
+				"productivity" : 79
+			},
+			"category" : "Monitors",
+			"id" : "mon-10",
+			"image" : "https://images.unsplash.com/photo-1593508510753-7d34d307b699?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "AOC AGON PRO AG274QXM",
+			"price" : 749.5,
+			"specs" : 
+			{
+				"cpu" : "Fast IPS",
+				"display" : "27\" QHD IPS",
+				"gpu" : "1ms GtG"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 83,
+				"productivity" : 86
+			},
+			"category" : "Monitors",
+			"id" : "mon-11",
+			"image" : "https://images.unsplash.com/photo-1504639728390-d6f022288447?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "HP Omen 27q QHD",
+			"price" : 809.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "Curved VA",
+				"display" : "49\" DQHD 240Hz",
+				"gpu" : "HDR1000"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 90,
+				"productivity" : 93
+			},
+			"category" : "Monitors",
+			"id" : "mon-12",
+			"image" : "https://images.unsplash.com/photo-1614624532983-4ce03382d63c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Lenovo ThinkVision P27u",
+			"price" : 869.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "IPS Black",
+				"display" : "27\" 4K OLED",
+				"gpu" : "G-Sync Compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 67,
+				"productivity" : 70
+			},
+			"category" : "Monitors",
+			"id" : "mon-13",
+			"image" : "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Samsung ViewFinity S8 32\"",
+			"price" : 928.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "QD-OLED panel",
+				"display" : "32\" 4K 144Hz",
+				"gpu" : "USB-C 90W"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 74,
+				"productivity" : 77
+			},
+			"category" : "Monitors",
+			"id" : "mon-14",
+			"image" : "https://images.unsplash.com/photo-1614624532983-4ce03382d63c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "ASUS ProArt PA32UCX",
+			"price" : 988.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "Nano IPS",
+				"display" : "34\" Ultrawide 165Hz",
+				"gpu" : "Mini-LED local dimming"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 81,
+				"productivity" : 84
+			},
+			"category" : "Monitors",
+			"id" : "mon-15",
+			"image" : "https://images.unsplash.com/photo-1498050108023-c5249f4df085?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "LG 34WN80C Ultrawide",
+			"price" : 1048.5,
+			"specs" : 
+			{
+				"cpu" : "Fast IPS",
+				"display" : "27\" QHD IPS",
+				"gpu" : "1ms GtG"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 88,
+				"productivity" : 91
+			},
+			"category" : "Monitors",
+			"id" : "mon-16",
+			"image" : "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "MSI Optix MAG274QRF-QD",
+			"price" : 1108.3,
+			"specs" : 
+			{
+				"cpu" : "Curved VA",
+				"display" : "49\" DQHD 240Hz",
+				"gpu" : "HDR1000"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 65,
+				"productivity" : 68
+			},
+			"category" : "Monitors",
+			"id" : "mon-17",
+			"image" : "https://images.unsplash.com/photo-1527443224537-d091fcccb3a0?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Dell S2722DGM Curved",
+			"price" : 1168.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "IPS Black",
+				"display" : "27\" 4K OLED",
+				"gpu" : "G-Sync Compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 72,
+				"productivity" : 75
+			},
+			"category" : "Monitors",
+			"id" : "mon-18",
+			"image" : "https://images.unsplash.com/photo-1593508510753-7d34d307b699?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Acer Predator X28 OLED",
+			"price" : 1227.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "QD-OLED panel",
+				"display" : "32\" 4K 144Hz",
+				"gpu" : "USB-C 90W"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 79,
+				"productivity" : 82
+			},
+			"category" : "Monitors",
+			"id" : "mon-19",
+			"image" : "https://images.unsplash.com/photo-1504639728390-d6f022288447?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Philips Evnia 34M2C8600",
+			"price" : 1287.7,
+			"specs" : 
+			{
+				"cpu" : "Nano IPS",
+				"display" : "34\" Ultrawide 165Hz",
+				"gpu" : "Mini-LED local dimming"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 86,
+				"productivity" : 89
+			},
+			"category" : "Monitors",
+			"id" : "mon-20",
+			"image" : "https://images.unsplash.com/photo-1614624532983-4ce03382d63c?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Corsair Xeneon Flex 45",
+			"price" : 1347.5,
+			"specs" : 
+			{
+				"cpu" : "Fast IPS",
+				"display" : "27\" QHD IPS",
+				"gpu" : "1ms GtG"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 75,
+				"productivity" : 78
+			},
+			"category" : "Networking",
+			"id" : "net-01",
+			"image" : "https://images.unsplash.com/photo-1558494945-ef010cbdcc15?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "ASUS ROG Rapture GT-AX11000",
+			"price" : 91.299999999999997,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 7 tri-band",
+				"gpu" : "AX11000 throughput",
+				"ram" : "6Gbps aggregate"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 82,
+				"productivity" : 85
+			},
+			"category" : "Networking",
+			"id" : "net-02",
+			"image" : "https://images.unsplash.com/photo-1544199447-0c2c5981ab9a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Netgear Nighthawk AXE7800",
+			"price" : 151.09999999999999,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 6E mesh",
+				"gpu" : "3200 sq ft coverage",
+				"ram" : "Parental controls"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 89,
+				"productivity" : 92
+			},
+			"category" : "Networking",
+			"id" : "net-03",
+			"image" : "https://images.unsplash.com/photo-1597852074816-64c65611ab8a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : true,
+			"name" : "TP-Link Archer BE9300",
+			"price" : 210.90000000000001,
+			"specs" : 
+			{
+				"cpu" : "10G SFP+ uplink",
+				"gpu" : "8-stream MU-MIMO",
+				"ram" : "AiMesh compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 66,
+				"productivity" : 69
+			},
+			"category" : "Networking",
+			"id" : "net-04",
+			"image" : "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Ubiquiti UniFi Dream Machine",
+			"price" : 270.69999999999999,
+			"specs" : 
+			{
+				"cpu" : "2.5G LAN ports",
+				"gpu" : "OFDMA + BSS",
+				"ram" : "EasyMesh ready"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 73,
+				"productivity" : 76
+			},
+			"category" : "Networking",
+			"id" : "net-05",
+			"image" : "https://images.unsplash.com/photo-1451187580459-43490279c0fa?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Eero Pro 6E Mesh 3-Pack",
+			"price" : 330.5,
+			"specs" : 
+			{
+				"cpu" : "PoE+ 802.3at",
+				"gpu" : "VPN server",
+				"ram" : "Guest network SSID"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 80,
+				"productivity" : 83
+			},
+			"category" : "Networking",
+			"id" : "net-06",
+			"image" : "https://images.unsplash.com/photo-1558495759-7e0dba836856?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Linksys Velop MX8500",
+			"price" : 390.30000000000001,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 7 tri-band",
+				"gpu" : "AX11000 throughput",
+				"ram" : "6Gbps aggregate"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 87,
+				"productivity" : 90
+			},
+			"category" : "Networking",
+			"id" : "net-07",
+			"image" : "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Google Nest Wifi Pro 6E",
+			"price" : 450.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 6E mesh",
+				"gpu" : "3200 sq ft coverage",
+				"ram" : "Parental controls"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 94,
+				"productivity" : 97
+			},
+			"category" : "Networking",
+			"id" : "net-08",
+			"image" : "https://images.unsplash.com/photo-1516321318529-f0f85e084e6a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "ASUS ZenWiFi XT12 Mesh",
+			"price" : 509.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "10G SFP+ uplink",
+				"gpu" : "8-stream MU-MIMO",
+				"ram" : "AiMesh compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 71,
+				"productivity" : 74
+			},
+			"category" : "Networking",
+			"id" : "net-09",
+			"image" : "https://images.unsplash.com/photo-1558494945-ef010cbdcc15?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Netgear Orbi RBKE963",
+			"price" : 569.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "2.5G LAN ports",
+				"gpu" : "OFDMA + BSS",
+				"ram" : "EasyMesh ready"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 78,
+				"productivity" : 81
+			},
+			"category" : "Networking",
+			"id" : "net-10",
+			"image" : "https://images.unsplash.com/photo-1544199447-0c2c5981ab9a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "TP-Link Deco XE75 Pro",
+			"price" : 629.5,
+			"specs" : 
+			{
+				"cpu" : "PoE+ 802.3at",
+				"gpu" : "VPN server",
+				"ram" : "Guest network SSID"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 85,
+				"productivity" : 88
+			},
+			"category" : "Networking",
+			"id" : "net-11",
+			"image" : "https://images.unsplash.com/photo-1597852074816-64c65611ab8a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Ubiquiti U6-LR Access Point",
+			"price" : 689.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 7 tri-band",
+				"gpu" : "AX11000 throughput",
+				"ram" : "6Gbps aggregate"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 92,
+				"productivity" : 95
+			},
+			"category" : "Networking",
+			"id" : "net-12",
+			"image" : "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Cisco Meraki MR46",
+			"price" : 749.10000000000002,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 6E mesh",
+				"gpu" : "3200 sq ft coverage",
+				"ram" : "Parental controls"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 69,
+				"productivity" : 72
+			},
+			"category" : "Networking",
+			"id" : "net-13",
+			"image" : "https://images.unsplash.com/photo-1451187580459-43490279c0fa?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "Netgear GS308E Smart Switch",
+			"price" : 808.89999999999998,
+			"specs" : 
+			{
+				"cpu" : "10G SFP+ uplink",
+				"gpu" : "8-stream MU-MIMO",
+				"ram" : "AiMesh compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 76,
+				"productivity" : 79
+			},
+			"category" : "Networking",
+			"id" : "net-14",
+			"image" : "https://images.unsplash.com/photo-1558495759-7e0dba836856?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "TP-Link TL-SG108 8-Port",
+			"price" : 868.70000000000005,
+			"specs" : 
+			{
+				"cpu" : "2.5G LAN ports",
+				"gpu" : "OFDMA + BSS",
+				"ram" : "EasyMesh ready"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 83,
+				"productivity" : 86
+			},
+			"category" : "Networking",
+			"id" : "net-15",
+			"image" : "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "ASUS PCE-AX58 WiFi 6 Card",
+			"price" : 928.5,
+			"specs" : 
+			{
+				"cpu" : "PoE+ 802.3at",
+				"gpu" : "VPN server",
+				"ram" : "Guest network SSID"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 90,
+				"productivity" : 93
+			},
+			"category" : "Networking",
+			"id" : "net-16",
+			"image" : "https://images.unsplash.com/photo-1516321318529-f0f85e084e6a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Intel AX210 M.2 WiFi Module",
+			"price" : 988.29999999999995,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 7 tri-band",
+				"gpu" : "AX11000 throughput",
+				"ram" : "6Gbps aggregate"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 67,
+				"productivity" : 70
+			},
+			"category" : "Networking",
+			"id" : "net-17",
+			"image" : "https://images.unsplash.com/photo-1558494945-ef010cbdcc15?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Starlink Standard Kit",
+			"price" : 1048.0999999999999,
+			"specs" : 
+			{
+				"cpu" : "Wi-Fi 6E mesh",
+				"gpu" : "3200 sq ft coverage",
+				"ram" : "Parental controls"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 74,
+				"productivity" : 77
+			},
+			"category" : "Networking",
+			"id" : "net-18",
+			"image" : "https://images.unsplash.com/photo-1544199447-0c2c5981ab9a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : true,
+			"isNew" : false,
+			"name" : "GL.iNet Flint 2 Router",
+			"price" : 1107.9000000000001,
+			"specs" : 
+			{
+				"cpu" : "10G SFP+ uplink",
+				"gpu" : "8-stream MU-MIMO",
+				"ram" : "AiMesh compatible"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 81,
+				"productivity" : 84
+			},
+			"category" : "Networking",
+			"id" : "net-19",
+			"image" : "https://images.unsplash.com/photo-1597852074816-64c65611ab8a?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "Synology RT6600ax Router",
+			"price" : 1167.7,
+			"specs" : 
+			{
+				"cpu" : "2.5G LAN ports",
+				"gpu" : "OFDMA + BSS",
+				"ram" : "EasyMesh ready"
+			}
+		},
+		{
+			"benchmarks" : 
+			{
+				"gaming" : 88,
+				"productivity" : 91
+			},
+			"category" : "Networking",
+			"id" : "net-20",
+			"image" : "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?fm=jpg&fit=crop&q=80&w=800",
+			"isDeal" : false,
+			"isNew" : false,
+			"name" : "MikroTik hAP ax3",
+			"price" : 1227.5,
+			"specs" : 
+			{
+				"cpu" : "PoE+ 802.3at",
+				"gpu" : "VPN server",
+				"ram" : "Guest network SSID"
+			}
+		},
+		{
+			"category" : "Laptops",
+			"id" : "122",
+			"image" : "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.apple.com/macbook-pro/&ved=2ahUKEwjMlqS_z6aVAxWxumMGHdV1Ml0Qr4kDegQIHRAA&usg=AOvVaw3MjU-ckLGzyL_3o1ufhD_b",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "product",
+			"price" : 2882.0,
+			"specs" : 
+			{
+				"cpu" : "TBD",
+				"ram" : "TBD",
+				"storage" : "TBD"
+			}
+		},
+		{
+			"category" : "Laptops",
+			"id" : "lap-admin-test",
+			"image" : "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
+			"isDeal" : false,
+			"isNew" : true,
+			"name" : "Admin Test Laptop",
+			"price" : 1299.99,
+			"specs" : 
+			{
+				"cpu" : "Ryzen 7",
+				"ram" : "16GB",
+				"storage" : "512GB SSD"
+			}
+		}
+	],
+	"heroSlides" : 
+	[
+		{
+			"id" : 1,
+			"image" : "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?fm=jpg&fit=crop&q=80&w=800",
+			"isCyanAccent" : true,
+			"subtitle" : "CABLE-FREE AESTHETICS",
+			"title" : "PROJECT ZERO"
+		},
+		{
+			"id" : 2,
+			"image" : "https://images.unsplash.com/photo-1591488320449-011701bb6704?fm=jpg&fit=crop&q=80&w=800",
+			"isCyanAccent" : false,
+			"subtitle" : "BEYOND FAST",
+			"title" : "RTX 4090"
+		}
+	],
+	"marqueeBrands" : 
+	[
+		{
+			"name" : "ASUS",
+			"slug" : "asus"
+		},
+		{
+			"name" : "RAZER",
+			"slug" : "razer"
+		},
+		{
+			"name" : "CORSAIR",
+			"slug" : "corsair"
+		},
+		{
+			"name" : "MSI",
+			"slug" : "msibusiness"
+		},
+		{
+			"name" : "ALIENWARE",
+			"slug" : "alienware"
+		},
+		{
+			"name" : "LOGITECH G",
+			"slug" : "logitechg"
+		},
+		{
+			"name" : "STEELSERIES",
+			"slug" : "steelseries"
+		},
+		{
+			"name" : "NVIDIA",
+			"slug" : "nvidia"
+		},
+		{
+			"name" : "AMD",
+			"slug" : "amd"
+		},
+		{
+			"name" : "INTEL",
+			"slug" : "intel"
+		},
+		{
+			"name" : "HYPERX",
+			"slug" : "hyperx"
+		},
+		{
+			"name" : "ACER",
+			"slug" : "acer"
+		},
+		{
+			"name" : "DELL",
+			"slug" : "dell"
+		},
+		{
+			"name" : "HP",
+			"slug" : "hp"
+		},
+		{
+			"name" : "LENOVO",
+			"slug" : "lenovo"
+		}
+	],
+	"orders" : 
+	{
+		"NX-8883" : 
+		{
+			"carrier" : "Same-day courier",
+			"etaNote" : "Slot reserved \u00b7 Thu AM",
+			"lines" : 
+			[
+				{
+					"qty" : 1,
+					"title" : "CableMod Pro kit bundle",
+					"unitPrice" : 119.98999999999999
+				},
+				{
+					"qty" : 2,
+					"title" : "32\" QD-OLED monitor arm",
+					"unitPrice" : 196.23500000000001
+				},
+				{
+					"qty" : 1,
+					"title" : "NexusCare thermal repaste",
+					"unitPrice" : 0
+				}
+			],
+			"summary" : 
+			{
+				"date" : "2026-04-11",
+				"id" : "NX-8883",
+				"itemCount" : 3,
+				"status" : "processing",
+				"total" : 512.46000000000004
+			},
+			"trackingHints" : 
+			[
+				"Parts allocated",
+				"Bench queue #4",
+				"Awaiting QA"
+			]
+		},
+		"NX-9014" : 
+		{
+			"carrier" : "NeoShip Apex",
+			"etaNote" : "Arriving Tue \u00b7 before 17:00",
+			"lines" : 
+			[
+				{
+					"qty" : 1,
+					"title" : "Blade 16 Gaming Laptop",
+					"unitPrice" : 1899.99
+				}
+			],
+			"summary" : 
+			{
+				"date" : "2026-05-02",
+				"id" : "NX-9014",
+				"itemCount" : 1,
+				"status" : "shipped",
+				"total" : 1899.99
+			},
+			"trackingHints" : 
+			[
+				"Packed Stellar Wharf",
+				"Departed distro center",
+				"In transit \u00b7 regional hub"
+			]
+		},
+		"NX-9021" : 
+		{
+			"carrier" : "NeoShip Apex",
+			"etaNote" : "Signed at kiosk \u00b7 Building A",
+			"lines" : 
+			[
+				{
+					"qty" : 1,
+					"title" : "Nebula X9 \u2014 Creator Pro (64GB / 2TB)",
+					"unitPrice" : 2499.9899999999998
+				},
+				{
+					"qty" : 1,
+					"title" : "White-glove cabling install",
+					"unitPrice" : 149.99000000000001
+				}
+			],
+			"summary" : 
+			{
+				"date" : "2026-05-18",
+				"id" : "NX-9021",
+				"itemCount" : 2,
+				"status" : "delivered",
+				"total" : 2649.1199999999999
+			},
+			"trackingHints" : 
+			[
+				"Picked Aurora DC",
+				"Arrived Nexus Central Hub",
+				"Out for delivery",
+				"Delivered"
+			]
+		}
+	}
+}

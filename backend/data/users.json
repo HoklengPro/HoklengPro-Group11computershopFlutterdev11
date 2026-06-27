@@ -1,0 +1,79 @@
+{
+	"users" : 
+	[
+		{
+			"createdAt" : "1783000000",
+			"email" : "admin@nexus.dev",
+			"id" : "u-admin001",
+			"initials" : "NA",
+			"name" : "Nexus Admin",
+			"passwordHash" : "e734c555fde68436dd0147b45b0c6c71db5dbdad0acab411bb03a19708761ba5",
+			"role" : "admin",
+			"tier" : "Administrator \u00b7 Full store access"
+		},
+		{
+			"createdAt" : "1780927567",
+			"email" : "test@nexus.dev",
+			"id" : "u-7d524981",
+			"initials" : "TU",
+			"name" : "Test User",
+			"passwordHash" : "778848f9275c4d9eee3b7e077eeb75a90c42fa3dc7cfcc91fed8e9b209b0720b",
+			"tier" : "Member \u00b7 Nova rewards tier"
+		},
+		{
+			"createdAt" : "1780928155",
+			"email" : "naruto@gmail.com",
+			"id" : "u-967a87cc",
+			"initials" : "N",
+			"name" : "Naruto",
+			"passwordHash" : "f27c9f29a44f1f58bc88f69908eb5084de4272fc257fca8227d035a973bbe9c0",
+			"tier" : "Member \u00b7 Nova rewards tier"
+		},
+		{
+			"createdAt" : "1781492128",
+			"email" : "hokleng@gmail.com",
+			"favorites" : 
+			[
+				"lap-14"
+			],
+			"id" : "u-ae62523a",
+			"initials" : "H",
+			"name" : "Holeng",
+			"passwordHash" : "96b237e556195f0d38788dda83a377327817cffa50b5ec510ac9eb17a0368ae0",
+			"tier" : "Member \u00b7 Nova rewards tier"
+		},
+		{
+			"createdAt" : "1782321501",
+			"email" : "demo@school.dev",
+			"favorites" : 
+			[
+				"p1"
+			],
+			"id" : "u-835f7c24",
+			"initials" : "DS",
+			"name" : "Demo Student",
+			"passwordHash" : "ff9e54c63c67675a6668493ac5ef68c3b4f82806f8b2f60053e2a44303317d23",
+			"tier" : "Member \u00b7 Nova rewards tier"
+		},
+		{
+			"createdAt" : "1782325517",
+			"email" : "mmmo@gmail.com",
+			"favorites" : [],
+			"id" : "u-0b448c86",
+			"initials" : "M",
+			"name" : "mmodaitmey",
+			"passwordHash" : "8f8de794f85b807866cb3d33459351c49b5895ce73a523df7645587c45e36e7e",
+			"tier" : "Member \u00b7 Nova rewards tier"
+		},
+		{
+			"createdAt" : "1782527003",
+			"email" : "apitest@nexus.dev",
+			"favorites" : [],
+			"id" : "u-2c634e3f",
+			"initials" : "AT",
+			"name" : "API Test",
+			"passwordHash" : "be6989c5c976c9b41ddc178c686d8db8b991d35b325bd62a8b0f6dd215dad0b8",
+			"tier" : "Member \u00b7 Nova rewards tier"
+		}
+	]
+}

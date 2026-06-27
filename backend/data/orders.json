@@ -1,0 +1,33 @@
+{
+	"orders" : 
+	[
+		{
+			"carrier" : "NeoShip Apex",
+			"etaNote" : "Processing \u00b7 estimated 3\u20135 business days",
+			"lines" : 
+			[
+				{
+					"productId" : "p1",
+					"qty" : 1,
+					"title" : "Nebula X9",
+					"unitPrice" : 2499.9899999999998
+				}
+			],
+			"summary" : 
+			{
+				"date" : "2026-06-24",
+				"id" : "NX-7212",
+				"itemCount" : 1,
+				"status" : "processing",
+				"total" : 2499.9899999999998
+			},
+			"trackingHints" : 
+			[
+				"Order received",
+				"Payment confirmed",
+				"Awaiting warehouse allocation"
+			],
+			"userId" : "u-835f7c24"
+		}
+	]
+}
