@@ -1,0 +1,605 @@
+openapi: 3.0.3
+info:
+  title: Nexus CSF API
+  description: |
+    REST API for the Nexus Computer Shop Flutter app (Drogon C++ backend).
+
+    **Auth:** Protected routes use `Authorization: Bearer <token>` from login/signup.
+
+    **Interactive docs:** Open `/api/docs` in a browser.
+  version: 1.0.0
+  contact:
+    name: Nexus CSF Team
+
+servers:
+  - url: http://127.0.0.1:8848
+    description: Local development
+  - url: http://10.0.2.2:8848
+    description: Android emulator → host machine
+
+tags:
+  - name: System
+  - name: Catalog
+  - name: Products
+  - name: Search
+  - name: Builder
+  - name: Orders
+  - name: Auth
+  - name: Users
+  - name: Admin
+
+paths:
+  /:
+    get:
+      tags: [System]
+      summary: Service index
+      responses:
+        '200':
+          description: Service metadata and endpoint list
+
+  /api/health:
+    get:
+      tags: [System]
+      summary: Health check
+      responses:
+        '200':
+          description: API is running
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+
+  /api/catalog:
+    get:
+      tags: [Catalog]
+      summary: Full catalog snapshot
+      description: Used by Flutter on startup — products, builder parts, orders, content bundle.
+      responses:
+        '200':
+          description: Complete catalog JSON
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /api/home:
+    get:
+      tags: [Catalog]
+      summary: Home screen payload
+      description: Hero slides, categories, brands, featured products.
+      responses:
+        '200':
+          description: Home payload
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /api/categories:
+    get:
+      tags: [Catalog]
+      summary: Product category tiles
+      responses:
+        '200':
+          description: Category array
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+
+  /api/products:
+    get:
+      tags: [Products]
+      summary: All products
+      responses:
+        '200':
+          description: Product array
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+
+  /api/products/featured:
+    get:
+      tags: [Products]
+      summary: Featured products grid
+      responses:
+        '200':
+          description: Featured product array
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+
+  /api/products/botm:
+    get:
+      tags: [Products]
+      summary: Build of the month
+      responses:
+        '200':
+          description: Single featured build product
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+
+  /api/products/{id}:
+    get:
+      tags: [Products]
+      summary: Single product by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          example: p2
+      responses:
+        '200':
+          description: Product detail
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/search:
+    get:
+      tags: [Search]
+      summary: Search products and builder parts
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+          example: rtx
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /api/builder/parts:
+    get:
+      tags: [Builder]
+      summary: PC builder parts catalog
+      parameters:
+        - name: type
+          in: query
+          schema:
+            type: string
+            enum: [cpu, gpu, motherboard, ram, storage, psu, case, cooler]
+          description: Filter by part type (omit for all types)
+      responses:
+        '200':
+          description: Parts object or filtered array
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /api/orders:
+    get:
+      tags: [Orders]
+      summary: List orders
+      description: |
+        Returns user-specific orders when a valid Bearer token is sent.
+        Without auth, returns public demo order summaries from catalog.
+      security:
+        - bearerAuth: []
+        - {}
+      responses:
+        '200':
+          description: Order summary list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OrderSummary'
+    post:
+      tags: [Orders]
+      summary: Place a new order
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateOrderRequest'
+      responses:
+        '201':
+          description: Order created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateOrderResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /api/orders/{id}:
+    get:
+      tags: [Orders]
+      summary: Order detail by ID
+      security:
+        - bearerAuth: []
+        - {}
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Order detail
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderDetail'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/auth/login:
+    post:
+      tags: [Auth]
+      summary: Sign in
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginRequest'
+      responses:
+        '200':
+          description: Authenticated session
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /api/auth/signup:
+    post:
+      tags: [Auth]
+      summary: Create account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SignupRequest'
+      responses:
+        '201':
+          description: Account created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /api/auth/me:
+    get:
+      tags: [Auth]
+      summary: Current user profile
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Profile
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  user:
+                    $ref: '#/components/schemas/UserProfile'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /api/users/me/favorites:
+    get:
+      tags: [Users]
+      summary: Get saved product IDs
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Favorite product IDs
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FavoritesResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+    put:
+      tags: [Users]
+      summary: Replace favorites list
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FavoritesRequest'
+      responses:
+        '200':
+          description: Updated favorites
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FavoritesResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /api/admin/products:
+    post:
+      tags: [Admin]
+      summary: Create product (PostgreSQL required)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '201':
+          description: Product saved
+        '503':
+          description: PostgreSQL not configured
+
+  /api/admin/seed:
+    post:
+      tags: [Admin]
+      summary: Seed catalog into PostgreSQL
+      responses:
+        '200':
+          description: Seed complete
+        '503':
+          description: PostgreSQL not configured
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  responses:
+    BadRequest:
+      description: Invalid request
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    Unauthorized:
+      description: Missing or invalid auth token
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required: [error]
+
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: ok
+        service:
+          type: string
+          example: nexus-drogon-backend
+        dataSource:
+          type: string
+          example: json
+        database:
+          type: string
+
+    Product:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        category:
+          type: string
+        price:
+          type: number
+        image:
+          type: string
+        specs:
+          type: object
+        benchmarks:
+          type: object
+          properties:
+            gaming:
+              type: integer
+            productivity:
+              type: integer
+        isNew:
+          type: boolean
+        isDeal:
+          type: boolean
+        configOptions:
+          type: object
+
+    SearchResponse:
+      type: object
+      properties:
+        query:
+          type: string
+        results:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+                enum: [product, builder_part]
+              item:
+                type: object
+
+    OrderSummary:
+      type: object
+      properties:
+        id:
+          type: string
+        date:
+          type: string
+        status:
+          type: string
+          enum: [processing, shipped, delivered, cancelled]
+        total:
+          type: number
+        itemCount:
+          type: integer
+
+    OrderDetail:
+      type: object
+      properties:
+        id:
+          type: string
+        date:
+          type: string
+        status:
+          type: string
+        total:
+          type: number
+        items:
+          type: array
+          items:
+            type: object
+
+    CreateOrderRequest:
+      type: object
+      required: [items]
+      properties:
+        items:
+          type: array
+          items:
+            type: object
+            required: [productId, title, qty, unitPrice]
+            properties:
+              productId:
+                type: string
+              title:
+                type: string
+              qty:
+                type: integer
+              unitPrice:
+                type: number
+
+    CreateOrderResponse:
+      type: object
+      properties:
+        order:
+          $ref: '#/components/schemas/OrderDetail'
+        message:
+          type: string
+
+    LoginRequest:
+      type: object
+      required: [email, password]
+      properties:
+        email:
+          type: string
+          format: email
+          example: test@nexus.dev
+        password:
+          type: string
+          format: password
+
+    SignupRequest:
+      type: object
+      required: [name, email, password]
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+          format: email
+        password:
+          type: string
+          format: password
+
+    AuthResponse:
+      type: object
+      properties:
+        token:
+          type: string
+        user:
+          $ref: '#/components/schemas/UserProfile'
+        message:
+          type: string
+
+    UserProfile:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        email:
+          type: string
+        initials:
+          type: string
+        tier:
+          type: string
+
+    FavoritesRequest:
+      type: object
+      required: [productIds]
+      properties:
+        productIds:
+          type: array
+          items:
+            type: string
+
+    FavoritesResponse:
+      type: object
+      properties:
+        productIds:
+          type: array
+          items:
+            type: string
+        message:
+          type: string

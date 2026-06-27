@@ -1,0 +1,79 @@
+name: nexus-csf
+
+services:
+  # ── Required: Drogon REST API ─────────────────────────────────────────────
+  nexus-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nexus-api
+    restart: unless-stopped
+    ports:
+      - "${NEXUS_API_PORT:-8848}:8848"
+    volumes:
+      # Persist catalog, users, and orders across restarts
+      - ./data:/app/data:Z
+    environment:
+      # Reserved for when backend reads PostgreSQL (future)
+      DATABASE_URL: postgresql://${POSTGRES_USER:-nexus}:${POSTGRES_PASSWORD:-nexus}@postgres:5432/${POSTGRES_DB:-nexus}
+    networks:
+      - nexus-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8848/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  # ── Optional: PostgreSQL (profile: with-db) ───────────────────────────────
+  # Not used by the API yet — JSON catalog is still the data source.
+  # Start this now so you can migrate products/orders/users to SQL later.
+  postgres:
+    profiles: ["with-db"]
+    image: docker.io/library/postgres:16-alpine
+    container_name: nexus-postgres
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-nexus}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nexus}
+      POSTGRES_DB: ${POSTGRES_DB:-nexus}
+    volumes:
+      - nexus_pg_data:/var/lib/postgresql/data:Z
+      - ./db/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro,Z
+    networks:
+      - nexus-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-nexus} -d ${POSTGRES_DB:-nexus}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ── Optional: Redis (profile: with-cache) ─────────────────────────────────
+  # Future use: shopping-cart sessions, API rate limits, hot product cache.
+  redis:
+    profiles: ["with-cache"]
+    image: docker.io/library/redis:7-alpine
+    container_name: nexus-redis
+    restart: unless-stopped
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - nexus_redis_data:/data:Z
+    networks:
+      - nexus-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+networks:
+  nexus-net:
+    driver: bridge
+
+volumes:
+  nexus_pg_data:
+  nexus_redis_data:
